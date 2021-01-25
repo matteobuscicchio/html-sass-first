@@ -1,3 +1,31 @@
+// colori
+$black: black;
+$purple: purple;
+$white: white;
+$gray: gray;
+
+// distanziatori spaziali
+$px_20: 20px;
+
+// corpo
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: yellow;
+    background-color: $black;
+}
+
+.purple{
+    background-color: $purple;
+    padding: $px_20;
+}
+
+h2, h3{
+    color: $white;
+}
+
+p{
+    color: $gray;
 }
